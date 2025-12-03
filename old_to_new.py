@@ -78,7 +78,7 @@ def fix_text(sample: str) -> str:
     
     return sample
 
-old_dir = Path("old")
+old_dir = Path("texts")
 out_dir = Path("texts")
 out_dir.mkdir(exist_ok=True)
 
