@@ -1,10 +1,10 @@
 import os
 
 # Folder containing your text files
-folder = "texts_k4"
+folder = "texts_telex"
 
 # Output file (will be created in the same directory as the script)
-output_file = "k4.txt"
+output_file = "telex.txt"
 
 # Open the output file in write mode
 with open(output_file, "w", encoding="utf-8") as outfile:
